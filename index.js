@@ -19,3 +19,21 @@ let getComputerChoice = () => {
 };
 
 console.log(getComputerChoice())
+
+let getHumanChoice = () => {
+    let choice = prompt("Pick 'rock', 'paper' or 'scissors'");
+    if(choice.toLowerCase() == 'rock')
+    {
+        return 'rock';
+    }
+    else if(choice.toLowerCase() == 'paper')
+    {
+        return 'paper';
+    }
+    else if(choice.toLowerCase() == 'scissors')
+    {
+        return 'scissors';
+    }
+}
+
+console.log(getHumanChoice());
